@@ -1,0 +1,88 @@
+#facebook_messenger_show_page, #facebook_messenger_hide_page{
+    max-height: 150px;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 15px;
+}
+#facebook-messenger-checkall-1, #facebook-messenger-checkall {
+    margin-left: 15px;
+}
+.ninja-support ul li {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 15px !important;
+    font-weight: bold;
+    padding-left: 30px !important;
+}
+.ninja-support ul li.document {
+    background: url(../images/document.png) no-repeat 5px center !important;
+}
+.ninja-support ul li.suport {
+    background: url(../images/help.png) no-repeat 5px center !important;
+}
+.ninja-support ul li.viewmore {
+    background: #0075ff url(../images/viewmore.png) no-repeat 5px center !important;
+    border-color: transparent;
+}
+.ninja-support ul li:hover {
+    opacity: 0.8;
+}
+.ninja-support ul li.viewmore a {
+    color: #fff;
+}
+.ninja-support ul li a {
+    text-decoration: none;
+}
+.ninja-support ul { margin-bottom: 10px; }
+.ninja-support {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #aeabab;
+}
+.facebook_messenger_backgroud_default {
+    text-decoration: none;
+}
+#nj-fb-class td {
+        position: relative;
+}
+
+/* Admin Style */
+.wrap h2.title {
+	margin: 5px 0;
+}
+
+.nav-tab:hover,
+.nav-tab-active {background: #4080FF; color: #fff; }
+#nj-fb-class input[type='submit'],
+#nj-fb-class input[type='submit']:hover { 
+    background-color: #4267b2;
+    border-color: #4267b2;
+    vertical-align: middle;
+    border: 1px solid;
+    width: 120px;
+    border-radius: 6px;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+h2.nav-tab-wrappper a.nav-tab-active{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.content-tab-active{
+	display: inherit;
+}
